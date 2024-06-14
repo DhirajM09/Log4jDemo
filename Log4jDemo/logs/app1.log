@@ -1,0 +1,56 @@
+App1 [23:25:59.835] [main] INFO  org.example.service.ServiceA - This is an info message
+App1 [23:25:59.837] [main] WARN  org.example.service.ServiceA - This is a warn message
+App1 [23:25:59.837] [main] ERROR org.example.service.ServiceA - This is an error message
+App1 [23:25:59.837] [main] FATAL org.example.service.ServiceA - This is a fatal message
+App1 [23:25:59.850] [main] INFO  org.example.service.ServiceC - This is an info service C
+App1 [23:25:59.852] [main] WARN  org.example.service.ServiceC - This is a warn service C
+App1 [23:25:59.852] [main] ERROR org.example.service.ServiceC - This is an error service C
+App1 [23:25:59.852] [main] FATAL org.example.service.ServiceC - This is a fatal service C
+App1 [23:25:59.852] [main] INFO  org.example.service.ServiceC - This is an info service C
+App1 [23:25:59.852] [main] WARN  org.example.service.ServiceC - This is a warn service C
+App1 [23:25:59.852] [main] ERROR org.example.service.ServiceC - This is an error service C
+App1 [23:25:59.852] [main] FATAL org.example.service.ServiceC - This is a fatal service C
+App1 [23:26:04.841] [Thread-0] INFO  org.example.service.ServiceA - This is an info message 2
+App1 [23:26:04.842] [Thread-0] WARN  org.example.service.ServiceA - This is a warn message 2
+App1 [23:26:04.842] [Thread-0] ERROR org.example.service.ServiceA - This is an error message 2
+App1 [23:26:04.843] [Thread-0] FATAL org.example.service.ServiceA - This is a fatal message 2
+App1 [23:26:04.843] [Thread-0] INFO  org.example.service.ServiceB - This is an info message
+App1 [23:26:04.843] [Thread-0] WARN  org.example.service.ServiceB - This is a warn message
+App1 [23:26:04.843] [Thread-0] ERROR org.example.service.ServiceB - This is an error message
+App1 [23:26:04.843] [Thread-0] FATAL org.example.service.ServiceB - This is a fatal message
+App1 [23:26:04.847] [Thread-1] INFO  org.example.service.ServiceB - This is an info message 1
+App1 [23:26:04.847] [Thread-1] WARN  org.example.service.ServiceB - This is a warn message 1
+App1 [23:26:04.848] [Thread-1] ERROR org.example.service.ServiceB - This is an error message 1
+App1 [23:26:04.848] [Thread-1] FATAL org.example.service.ServiceB - This is a fatal message 1
+App1 [23:26:09.846] [Thread-2] INFO  org.example.service.ServiceB - This is an info message 1
+App1 [23:26:09.848] [Thread-2] WARN  org.example.service.ServiceB - This is a warn message 1
+App1 [23:26:09.848] [Thread-2] ERROR org.example.service.ServiceB - This is an error message 1
+App1 [23:26:09.848] [Thread-2] FATAL org.example.service.ServiceB - This is a fatal message 1
+App1 [21:45:27.110] [main] INFO  org.example.service.ServiceA - This is an info message
+App1 [21:45:27.113] [main] WARN  org.example.service.ServiceA - This is a warn message
+App1 [21:45:27.113] [main] ERROR org.example.service.ServiceA - This is an error message
+App1 [21:45:27.113] [main] FATAL org.example.service.ServiceA - This is a fatal message
+App1 [21:45:27.125] [main] INFO  org.example.service.ServiceC - This is an info service C
+App1 [21:45:27.126] [main] WARN  org.example.service.ServiceC - This is a warn service C
+App1 [21:45:27.126] [main] ERROR org.example.service.ServiceC - This is an error service C
+App1 [21:45:27.126] [main] FATAL org.example.service.ServiceC - This is a fatal service C
+App1 [21:45:27.126] [main] INFO  org.example.service.ServiceC - This is an info service C
+App1 [21:45:27.126] [main] WARN  org.example.service.ServiceC - This is a warn service C
+App1 [21:45:27.126] [main] ERROR org.example.service.ServiceC - This is an error service C
+App1 [21:45:27.126] [main] FATAL org.example.service.ServiceC - This is a fatal service C
+App1 [21:45:32.117] [Thread-0] INFO  org.example.service.ServiceA - This is an info message 2
+App1 [21:45:32.118] [Thread-0] WARN  org.example.service.ServiceA - This is a warn message 2
+App1 [21:45:32.118] [Thread-0] ERROR org.example.service.ServiceA - This is an error message 2
+App1 [21:45:32.118] [Thread-0] FATAL org.example.service.ServiceA - This is a fatal message 2
+App1 [21:45:32.119] [Thread-0] INFO  org.example.service.ServiceB - This is an info message
+App1 [21:45:32.119] [Thread-0] WARN  org.example.service.ServiceB - This is a warn message
+App1 [21:45:32.119] [Thread-0] ERROR org.example.service.ServiceB - This is an error message
+App1 [21:45:32.119] [Thread-0] FATAL org.example.service.ServiceB - This is a fatal message
+App1 [21:45:32.121] [Thread-1] INFO  org.example.service.ServiceB - This is an info message 1
+App1 [21:45:32.122] [Thread-1] WARN  org.example.service.ServiceB - This is a warn message 1
+App1 [21:45:32.122] [Thread-1] ERROR org.example.service.ServiceB - This is an error message 1
+App1 [21:45:32.122] [Thread-1] FATAL org.example.service.ServiceB - This is a fatal message 1
+App1 [21:45:37.123] [Thread-2] INFO  org.example.service.ServiceB - This is an info message 1
+App1 [21:45:37.124] [Thread-2] WARN  org.example.service.ServiceB - This is a warn message 1
+App1 [21:45:37.124] [Thread-2] ERROR org.example.service.ServiceB - This is an error message 1
+App1 [21:45:37.124] [Thread-2] FATAL org.example.service.ServiceB - This is a fatal message 1

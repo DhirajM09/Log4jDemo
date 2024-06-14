@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="applnName">${sys:appName}</Property>
+    </Properties>
+    <Appenders>
+        <Routing name="Routing">
+            <Routes pattern="${applnName}">
+                <Route key="App1">
+                    <File name="App1File" fileName="logs/app1.log">
+                        <PatternLayout pattern="${applnName} [%d{HH:mm:ss.SSS}] [%t] %-5level %logger{36} - %msg%n"/>
+                    </File>
+                </Route>
+                <Route key="App2">
+                    <File name="App2File" fileName="logs/app2.log">
+                        <PatternLayout pattern="${applnName} [%d{HH:mm:ss.SSS}] [%t] %-5level %logger{36} - %msg%n"/>
+                    </File>
+                </Route>
+                <Route key="default">
+                    <Console name="Console" target="SYSTEM_OUT">
+                        <PatternLayout pattern="${applnName} [%d{HH:mm:ss.SSS}] [%t] %-5level %logger{36} - %msg%n"/>
+                    </Console>
+                </Route>
+            </Routes>
+        </Routing>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Routing"/>
+        </Root>
+    </Loggers>
+</Configuration>

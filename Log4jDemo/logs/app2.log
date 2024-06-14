@@ -1,0 +1,10 @@
+App2 [23:25:59.809] [main] INFO  org.example.Main - This is a log message for App2
+App2 [23:25:59.843] [main] INFO  org.example.service.ServiceB - This is an info message
+App2 [23:25:59.844] [main] WARN  org.example.service.ServiceB - This is a warn message
+App2 [23:25:59.844] [main] ERROR org.example.service.ServiceB - This is an error message
+App2 [23:25:59.844] [main] FATAL org.example.service.ServiceB - This is a fatal message
+App2 [21:45:27.058] [main] INFO  org.example.Main - This is a log message for App2
+App2 [21:45:27.118] [main] INFO  org.example.service.ServiceB - This is an info message
+App2 [21:45:27.119] [main] WARN  org.example.service.ServiceB - This is a warn message
+App2 [21:45:27.119] [main] ERROR org.example.service.ServiceB - This is an error message
+App2 [21:45:27.119] [main] FATAL org.example.service.ServiceB - This is a fatal message
